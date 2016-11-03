@@ -1,0 +1,28 @@
+[Crestron_Toolbox_Address_Book]
+
+[Entries]
+This .xadr file was created using Toolbox v2.41 or later.=:slot 01
+It is not compatible with this version of Toolbox.=:slot 02
+Please open a .adr Address Book to continue.=:slot 03
+
+[AddressBookInfo]
+Schema=2.0
+Version=1.0
+DefaultEntry=
+
+[ComSpecs]
+USB=usb
+DMPS3300=auto 172.21.201.2
+TSW750=auto 172.21.201.3
+TX201=auto 172.21.201.7
+RMC Scaler=auto 172.21.201.8
+New Entry 1=usb
+
+[Notes]
+USB=
+DMPS3300=
+TSW750=
+TX201=
+RMC Scaler=
+New Entry 1=
+

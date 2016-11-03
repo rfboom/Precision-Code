@@ -1,0 +1,10 @@
+<Device Model="DMPS3-300-C.">
+   <Network Type="Cresnet" Id="06"/>
+   <Network Type="Ethernet" Id="07">
+      <Device Model="TSW-752" DeviceId="03"/>
+      <Device Model="XPanel 2.0 Smart Graphics" DeviceId="04"/>
+      <Device Model="Crestron App" DeviceId="05"/>
+      <Device Model="DM-RMC-SCALER-C" DeviceId="10"/>
+      <Device Model="DM-TX-201-C" DeviceId="11"/>
+   </Network>
+</Device>

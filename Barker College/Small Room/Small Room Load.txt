@@ -1,0 +1,34 @@
+//Crestron Toolbox Template Script File.
+
+[Header]
+	// Global settings go here.
+	// Add key to individual sections to override, otherwise these values will be used.
+DebugStrings=on
+AbortOnError=on
+ConcurrentSectionLimit=100
+//GlobalReportFile=|$scriptpath||$scriptfilename|-Report Log |$date| |$time|.log
+//GlobalReportFileIncludeAll=off
+
+[Variables]
+//Predefined: $time $date $scriptfilename $scriptpath $scriptsection
+//SampleVar=This is a sample variable
+
+[First Section]
+Connect=
+//DataLogFile=
+//LogFile=
+
+[Load Firmware 1]
+Connect=auto 192.168.16.11
+//LogFile=
+//DataLogFile=
+FirmwareUpdate "D:\work\installs\Crestron\firmwares\tsx-xxx2_1.002.0013.004.puf"
+
+[Load Program 1]
+Connect=auto 192.168.16.11
+//LogFile=
+//DataLogFile=
+// Additional parameters available for ProgramSend.  See Reference for details.
+ProgramSend "D:\work\code\Barker College\Small Room\Barker_College_SmallRoom_DMPS3-50.lpz"
+
+

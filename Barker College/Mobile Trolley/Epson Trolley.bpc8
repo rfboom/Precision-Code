@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Version="1.0" LibraryId="0" LastId="9" DefaultBaudRate="9600" DefaultParity="None" DefaultDataBits="8" DefaultStopBits="1" DefaultPacing="00:00:00" DisplayDeviceSupportsDiscretePowerCommands="False">
+  <BPC8 Passcode="" LockButton="1">
+    <Buttons>
+      <Button Action="2" Number="1" LEDFeedbackType="Interlocked Group 1" />
+      <Button Action="1" Number="2" LEDFeedbackType="Interlocked Group 1" />
+      <Button Action="9" Number="3" LEDFeedbackType="Interlocked Group 2" />
+      <Button Number="4" LEDFeedbackType="None" />
+      <Button Action="4" Number="5" LEDFeedbackType="Interlocked Group 2" />
+      <Button Action="7" Number="6" LEDFeedbackType="Momentary" />
+      <Button Action="3" Number="7" LEDFeedbackType="Interlocked Group 2" />
+      <Button Action="8" Number="8" LEDFeedbackType="Momentary" />
+    </Buttons>
+    <InactivityTimeout Timeout="00:00:00" />
+  </BPC8>
+  <RS232Commands>
+    <RS232Command Id="1" Name="Power On" EnableRepeat="false" RepeatInterval="0">
+      <DataFragments>
+        <DataFragment Data="PWR ON\r" DataType="ASCII Text" />
+      </DataFragments>
+    </RS232Command>
+    <RS232Command Id="2" Name="Power Off" EnableRepeat="false" RepeatInterval="0">
+      <DataFragments>
+        <DataFragment Data="PWR OFF\r" DataType="ASCII Text" />
+      </DataFragments>
+    </RS232Command>
+    <RS232Command Id="3" Name="VGA" EnableRepeat="false" RepeatInterval="0">
+      <DataFragments>
+        <DataFragment Data="SOURCE 11\r" DataType="ASCII Text" />
+      </DataFragments>
+    </RS232Command>
+    <RS232Command Id="4" Name="HDMI" EnableRepeat="false" RepeatInterval="0">
+      <DataFragments>
+        <DataFragment Data="SOURCE 30\r" DataType="ASCII Text" />
+      </DataFragments>
+    </RS232Command>
+    <RS232Command Id="5" Name="Mute On" EnableRepeat="false" RepeatInterval="0">
+      <DataFragments>
+        <DataFragment Data="MUTE ON\r" DataType="ASCII Text" />
+      </DataFragments>
+    </RS232Command>
+    <RS232Command Id="6" Name="Mute Off" EnableRepeat="false" RepeatInterval="0">
+      <DataFragments>
+        <DataFragment Data="MUTE OFF\r" DataType="ASCII Text" />
+      </DataFragments>
+    </RS232Command>
+    <RS232Command Id="7" Name="Vol Up" EnableRepeat="false" RepeatInterval="0">
+      <DataFragments>
+        <DataFragment Data="KEY 56\r" DataType="ASCII Text" />
+      </DataFragments>
+    </RS232Command>
+    <RS232Command Id="8" Name="Vol Down" EnableRepeat="false" RepeatInterval="0">
+      <DataFragments>
+        <DataFragment Data="KEY 57\r" DataType="ASCII Text" />
+      </DataFragments>
+    </RS232Command>
+    <RS232Command Id="9" Name="HDMI 2" EnableRepeat="false" RepeatInterval="0">
+      <DataFragments>
+        <DataFragment Data="SOURCE A0\r" DataType="ASCII Text" />
+      </DataFragments>
+    </RS232Command>
+  </RS232Commands>
+  <ControlledDevices />
+  <Macros />
+</Project>

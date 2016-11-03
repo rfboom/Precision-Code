@@ -1,0 +1,74 @@
+[Crestron_Toolbox_Address_Book]
+
+[Entries]
+This .xadr file was created using Toolbox v2.41 or later.=:slot 01
+It is not compatible with this version of Toolbox.=:slot 02
+Please open a .adr Address Book to continue.=:slot 03
+
+[AddressBookInfo]
+Schema=2.0
+Version=1.0
+DefaultEntry=
+
+[ComSpecs]
+USB=usb
+DMPS4K- 5F=auto 192.168.16.10
+TSW550 - 5F=auto 192.168.16.11
+Cl Rm 2 DMPS=auto 192.168.16.10
+Cl Rm 2 TSW=auto 192.168.16.11
+Cl Rm 3 - Y5=auto 192.168.16.30
+Cl Rm 3 TSW=auto 192.168.16.31
+Cl Rm 4 - 5G=auto 192.168.16.40
+Cl RM 4 TSW=auto 192.168.16.41
+Cl Rm 5 - 6h=auto 192.168.16.50
+Cl Rm 5 TSW=auto 192.168.16.51
+Cl Rm 6 - 6k=auto 192.168.16.60
+Cl Rm 6 TSW=auto 192.168.16.61
+Cl Rm 7 - 6C=auto 192.168.16.70
+Cl Rm 7 TSW=auto 192.168.16.71
+Cl Rm 8 - y6=auto 192.168.16.80
+Cl Rm 8 TSW=auto 192.168.16.81
+Cl Rm 9 - 6f=auto 192.168.16.90
+Cl Rm 9 TSW=auto 192.168.16.91
+Cl Rm 10 - Enrichment=auto 192.168.16.100
+Cl RM 10 TSW=auto 192.168.16.101
+Cl Rm 11 - 5J=auto 192.168.16.110
+Cl Rm 11 TSW=auto 192.168.16.111
+Cl Rm 12 - 5M=auto 192.168.16.120
+Cl Rm 12 TSW=auto 192.168.16.121
+Temp 1=auto 192.168.16.110
+Temp 2=auto 192.168.16.120
+Temp 3=auto 192.168.16.206
+Temp 4=auto 192.168.16.203
+
+[Notes]
+USB=
+DMPS4K- 5F=
+TSW550 - 5F=
+Cl Rm 2 DMPS=
+Cl Rm 2 TSW=
+Cl Rm 3 - Y5=
+Cl Rm 3 TSW=
+Cl Rm 4 - 5G=
+Cl RM 4 TSW=
+Cl Rm 5 - 6h=
+Cl Rm 5 TSW=
+Cl Rm 6 - 6k=
+Cl Rm 6 TSW=
+Cl Rm 7 - 6C=
+Cl Rm 7 TSW=
+Cl Rm 8 - y6=
+Cl Rm 8 TSW=
+Cl Rm 9 - 6f=
+Cl Rm 9 TSW=
+Cl Rm 10 - Enrichment=
+Cl RM 10 TSW=
+Cl Rm 11 - 5J=
+Cl Rm 11 TSW=
+Cl Rm 12 - 5M=
+Cl Rm 12 TSW=
+Temp 1=
+Temp 2=
+Temp 3=
+Temp 4=
+
